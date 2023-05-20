@@ -4,7 +4,7 @@
   This Project was made to make accurate predictions about whether a person has Diabetes or not by using Machine Learning Algorithms.
   This project ensures timely detection of Diabetes so that no time is wasted and the user doesnot have to wait for lengthy hospital 
   procedures and wait for a long time to get the result.
-  I deployed the Machine Learning model using Flask API. I trained various machine learning algorithms and finally used Gradient Boost
+  I deployed the Machine Learning model using Flask API. I trained various machine learning algorithms and finally used Logistic Regression with hyperparameter Tuning
   for the project as it gave the best results.
   
   
@@ -24,7 +24,7 @@
    
   # Project Structure #
    This project has four major parts : <br />
-   1. model.py : This contains code fot our Machine Learning model to predict the chances of a patient having Diabetes. <br />
+   1. model : This contains pickle files for our Machine Learning model to predict the chances of a patient having Diabetes. <br />
    2. app.py: This contains Flask APIs that receives patient's details through GUI or API calls, computes the precited value based on our model and predicts whether the  patient has Diabetes or not. <br />
    3. templates: This folder contains the HTML template to allow user to enter various fields inorder to know his chances of having        disease.  <br />
    4. static: It contains the CSS part of the project.  <br />
