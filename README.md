@@ -2,7 +2,7 @@
 # Diabetes Predictor
 
   This Project was made to make accurate predictions about whether a person has Diabetes or not by using Machine Learning Algorithms.
-  This project ensures timely detection of Diabetes so that no time is wasted and the user doesnot have to wait for lengthy hospital 
+  This project ensures timely detection of Diabetes so that no time is wasted and the user does not have to wait for lengthy hospital 
   procedures and wait for a long time to get the result.
   I deployed the Machine Learning model using Flask API. I trained various machine learning algorithms and finally used Logistic Regression with hyperparameter Tuning
   for the project as it gave the best results.
@@ -23,18 +23,17 @@
     
    
   # Project Structure #
-   This project has four major parts : <br />
-   1. model : This contains pickle files for our Machine Learning model to predict the chances of a patient having Diabetes. <br />
-   2. app.py: This contains Flask APIs that receives patient's details through GUI or API calls, computes the precited value based on our model and predicts whether the  patient has Diabetes or not. <br />
-   3. templates: This folder contains the HTML template to allow user to enter various fields inorder to know his chances of having        disease.  <br />
+   This project has four major parts: <br />
+   1. model: This contains pickle files for our Machine Learning model to predict the chances of a patient having Diabetes. <br />
+   2. app.py: This contains Flask APIs that receive patient's details through GUI or API calls, compute the precited value based on our model, and predict whether the  patient has Diabetes or not. <br />
+   3. templates: This folder contains the HTML template to allow the user to enter various fields in order to know his chances of having  the disease.  <br />
    4. static: It contains the CSS part of the project.  <br />
    
     
   # Running the Model: #
-   1. Ensure that you are in the project home directory. Create the machine learning model by running below command -   python model.py  <br />
-   This would create a serialized version of our model into a file model.pkl  <br />   
-   2. Run app.py using below command to start Flask API python app.py <br />
-   By default, flask will run on port 5000.  <br />   
+   1. Ensure that you are in the project home directory.  <br />   
+   2. Run app.py using the below command to start Flask API python app.py <br />
+   By default, the flask will run on port 5000.  <br />   
    3. Navigate to URL http://localhost:5000   <br />   
    4. We will see the below home page where we have to enter the details.  <br />   
    
@@ -42,12 +41,12 @@
    ![Home_Page](https://user-images.githubusercontent.com/51885421/89995555-3ed4bd00-dca7-11ea-9e69-142ec9502327.png)
    
    
-   5. The out put will be 0 or 1. <br />
+   5. The output will be 0 or 1. <br />
       1 means the person is having Diabetes <br />
       0 means he is safe  <br />
    
    
-   6. Demonstartion For Patients having Diabetes 
+   6. Demonstration For Patients having Diabetes 
    
    ![patient1_data](https://user-images.githubusercontent.com/51885421/89995572-44ca9e00-dca7-11ea-85c3-34db6481f355.png)
    
